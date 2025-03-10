@@ -30,8 +30,21 @@ function App() {
 
   return (
     <>
+
     <div className='header'>
       <h1>HOTELES CON ENCANTO EN CATALUÑA</h1>
+    </div>
+
+    <div className='top-3'>
+      <div className='header'>
+        <h2>Tus top-3 hoteles</h2>
+      </div>
+
+      <div className='top-container'>
+        <div className='top-hotel'></div>
+        <div className='top-hotel'></div>
+        <div className='top-hotel'></div>
+      </div>
     </div>
 
     <div className='header'>
@@ -57,14 +70,9 @@ function App() {
         <button className='btn' onClick={previous}>Anterior</button>
         <button className='btn'>Añadir al TOP-3</button>
         <button className='btn' onClick={next}>Siguiente</button>
-      </div>
+      </div>      
       
-      
-    </div>
-    
-
-
-    
+    </div>    
      
     </>
   )

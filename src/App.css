@@ -1,3 +1,5 @@
+
+
 .header {
     display: flex;
     justify-content: center;
@@ -23,6 +25,10 @@
     width: 100%;
 }
 
+h3 {
+    font-size: 23px;
+}
+
 .image {
     position: absolute;
     top: 80px;    
@@ -35,7 +41,7 @@
     left: 50%;
     transform: translateX(-50%); /* Сдвигает элемент назад на 50% его ширины */   
     width: 80%;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.3px;
     line-height: 1.5;
 }
 
@@ -47,6 +53,7 @@
     color: #337ab7;
     padding: 10px;
     font-size: 15px;
+    font-weight: bolder;
 
 }
 

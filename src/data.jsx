@@ -5,7 +5,7 @@ export const data = [
         id: 1,        
         hotel: "Petit mirador (Torrellas de Llobregat)",
         image: "https://webbox.imgix.net/images/xnlqhdilkviknnie/5d2c590f-277b-4285-a76c-688c4ef4a167.jpg?auto=format,compress&fit=crop&crop=entropy&w=1920",
-        description: "El Petit Mirador, es un hotel de 3* con encanto, situado a tan solo 20 min de Barcelona, y del aeropuerto del Prat. Cuenta con 6 amplias habitaciones con baño, Tv, a.a, calefacción, wifi. El hotel dispone de zonas de ocio como sala de juegos, billar y salón de TV. Hay conexión Wi-Fi gratuita en todo el hotel para su comodidad. En la terraza hay unas vistas maravillosas que no olvidará fácilmente. También disponemos de piscina y jacuzzi exterior panorámico rodeado de tumbonas ideal para relajarse y disfrutar en verano. Si lo desea, podrá solicitar al personal una sesión de masaje. El Petit Mirador se encuentra en el corazón de la comarca del Baix Llobregat.",
+        description: "El Petit Mirador, es un hotel de 3* con encanto, situado a tan solo 20 min de Barcelona, y del aeropuerto del Prat. Cuenta con 6 amplias habitaciones con baño, Tv, a.a, calefacción, wifi. El hotel dispone de zonas de ocio como sala de juegos, billar y salón de TV. Hay conexión Wi-Fi gratuita en todo el hotel para su comodidad. En la terraza hay unas vistas maravillosas que no olvidará fácilmente. También disponemos de piscina y jacuzzi exterior panorámico rodeado de tumbonas ideal para relajarse y disfrutar en verano.",
         showMore: false,
         sourse: "https://www.petitmirador.com/es/index.html"
     }, 
@@ -37,7 +37,7 @@ export const data = [
         id: 5,        
         hotel: "Les Cols Pavellons (Olot)",
         image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/481186205.jpg?k=b61cd3b3a34b17e3fa38d9562efbfef3be1a870050eb54272a92aa4fca8505d2&o=&hp=1",
-        description: "Siguiendo en la línea de dormir bajo las estrellas, encontramos las Bubble Suite de la Masia Pla del Bosc, un alojamiento diferente en el Garraf. Se trata de un alojamiento menos conocido, puesto que su apertura es bastante reciente, pero no tiene nada que envidiarle al resto de hoteles originales de la lista. Lo más llamativo de este alojamiento es que dispone de un jacuzzi privado en la misma burbuja y de una terraza preciosa para disfrutar del entorno natural.",
+        description: "Les Cols Pavellons es, sin duda, uno de los mejores hoteles originales de Cataluña. ¡Es simplemente espectacular! Este alojamiento, en Olot, consta de 5 pabellones transparentes situados en plena naturaleza.  Y cada pabellón tiene sus propias aguas termales para poder disfrutar de un momento relajante y de desconexión. ¿Te imaginas cómo debe ser dormir en plena naturaleza?",
         showMore: false, 
         sourse: "https://lescolspavellons.com/esp/"
     },
@@ -53,7 +53,7 @@ export const data = [
         id: 7,        
         hotel: "Mas Salagros Ecoresort (Vallromanes)",
         image: "https://www.massalagros.com/wp-content/uploads/2018/05/AIRE-Ancient-Baths-Mas-Salagros.jpg.webp",
-        description: "¿Buscas hoteles originales en Cataluña, pero que también sean respetuosos con el medio ambiente? Mas Salagros Ecoresort es uno de los alojamientos con más encanto de Cataluña, pero además, es el primer destino 100% ecológico de la península. Ubicado a tan solo 20 minutos de Barcelona, se encuentra este Ecoresort para desconectar y disfrutar de a filosofía Slow en una reserva natural.En este hotel estuve hace un año y la verdad es que me encantó el concepto. Está ubicado en una finca totalmente natural, en la que dispones de restaurantes y spa 100% ecológicos.",
+        description: "¿Buscas hoteles originales en Cataluña, pero que también sean respetuosos con el medio ambiente? Mas Salagros Ecoresort es uno de los alojamientos con más encanto de Cataluña, pero además, es el primer destino 100% ecológico de la península. Ubicado a tan solo 20 minutos de Barcelona, se encuentra este Ecoresort para desconectar y disfrutar de a filosofía Slow en una reserva natural. Está ubicado en una finca totalmente natural, en la que dispones de restaurantes y spa 100% ecológicos.",
         showMore: false, 
         sourse: "https://www.massalagros.com/"
     },
@@ -75,7 +75,7 @@ export const data = [
     },
     {
         id: 10,        
-        hotel: "Hotel La Vella Farga (Lladurs, Solsonès, Lleida)",
+        hotel: "Hotel La Vella Farga (Lladurs)",
         image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/49155715.jpg?k=09a3439504b8ed4a98bb263d3cb6712ae9afa31cc8b37b5ac6dc4d54e255e1a1&o=&hp=1",
         description: "Ubicado muy cerca de Solsona se encuentra este espectacular hotel de Cataluña construido en una masía típica catalana que data del año 1036. La restauración del Hotel La Vella Farga lo ha llevado a convertirse en un alojamiento rural con decoración sofisticada y moderna, pero que conserva su fabulosa fachada y algunos elementos antiguos. Además, cuenta con piscina exterior tipo infinity y está completamente rodeada de naturaleza.",
         showMore: false, 
@@ -83,7 +83,7 @@ export const data = [
     },    
     {
         id: 11,        
-        hotel: "El Far Hotel (Llafranc, Baix Empordà, Costa Brava)",
+        hotel: "El Far Hotel (Llafranc)",
         image: "https://cdn.secretplaces.com/images/hotel-media/14-1.jpg",
         description: "Damos un salto a la Costa Brava, concretamente a un acantilado a 175 metros sobre el mar. ¿Y qué tiene de particular El Far Hotel? Pues que se encuentra justo al lado del Far de San Sebastià, uno de los faros más míticos de la Costa Brava. Las 9 habitaciones están decoradas al estilo marinero y cuenta con una terraza espectacular desde la que ver el faro y el mar. ¡Su restaurante es también muy recomendable!",
         showMore: false, 
@@ -99,7 +99,7 @@ export const data = [
     },
     {
         id: 13,        
-        hotel: "Las Moradas del Unicornio (Púbol, Baix Empordà)",
+        hotel: "Las Moradas del Unicornio (Púbol)",
         image: "https://las-moradas-del-unicornio-pubol.hotelmix.es/data/Photos/OriginalPhoto/8440/844041/844041353/Las-Moradas-Del-Unicornio-Guest-House-Pubol-Exterior.JPEG",
         description: "Considerado uno de los alojamientos más románticos de España, la casa rural del siglo XI es un templo para la felicidad y el amor. Tienen cuatro suites decoradas con el mito del unicornio, con todos los elementos dispuestos de forma mágica y espiritual. Además, tienen una biblioteca con más de 5.000 ejemplares de distintos géneros, y un jardín con piscina.",
         showMore: false, 
@@ -107,15 +107,15 @@ export const data = [
     },
     {
         id: 14,        
-        hotel: "Hotel Esperit Roca (Sant Julià de Ramis, Gironès, Girona)",
+        hotel: "Hotel Esperit Roca (Sant Julià de Ramis)",
         image: "https://www.petitsgranshotelsdecatalunya.com/media/hoteles/esperit-roca/proposta-web-hotel-sants-metges-07_web.jpg",
-        description: "El Hotel Esperit Roca situado en Sant Julià de Ramis, ofrece vistas panorámicas de 360º hacia Girona y l’Empordà. Su cercanía a Girona y su oferta de actividades al aire libre lo convierten en un lugar ideal tanto para una escapada corta como para una estancia más prolongada. Este hotel de 15 habitaciones, construidas con materiales naturales, son concebidas para armonizarse con su entorno y brindar un espacio exclusivo y apacible. Creadas para ser estancias sumamente confortables, donde podrán conocer su nuevo restaurante gastronómico, descubrir su destilería y explorar su última exposición.",
+        description: "El Hotel Esperit Roca situado en Sant Julià de Ramis, ofrece vistas panorámicas de 360º hacia Girona y l’Empordà. Su cercanía a Girona y su oferta de actividades al aire libre lo convierten en un lugar ideal tanto para una escapada corta como para una estancia más prolongada. Este hotel de 15 habitaciones, construidas con materiales naturales, son concebidas para armonizarse con su entorno y brindar un espacio exclusivo y apacible.",
         showMore: false, 
         sourse: "https://hotelesperitroca.com/"
     },
     {
         id: 15,        
-        hotel: "Hotel La Plaça de Madremanya (Madremanya, Gironès, Girona)",
+        hotel: "Hotel La Plaça de Madremanya (Madremanya)",
         image: "https://hotel-la-placa-madremanya-17462.topcostabravahotels.com/data/Photos/OriginalPhoto/4630/463068/463068675/hotel-la-placa-madremanya-photo-47.JPEG",
         description: "Entre Girona i el Ampurdán hay un pequeño paraíso, ondulado y benigno. Madremanya es el corazón. Es un pueblo de aire italiano, situado sobre una colina y con una iglesia de color de miel, que a su vez es el color de las casas y las calles, donde el tiempo, dormido, descansa. Joya de este paraíso es el restaurante La Plaça, de cocina refinada y sutil, convertido en un hotelito encantador, rodeado de un jardín aromático, abierto a Les Gavarres siempre verdes, maternales, silenciosas.",
         showMore: false, 
