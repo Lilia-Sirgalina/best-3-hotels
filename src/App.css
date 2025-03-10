@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 800px;
+    background-color: #F2F2F2;
+    color: #212529;
+    border-radius: 50px;
+}
+
+.line {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Сдвигает элемент назад на 50% его ширины */
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    top: 80px;    
+    width: 100%;
+}
+
+.description {
+    position: absolute;
+    top: 450px; 
+    left: 50%;
+    transform: translateX(-50%); /* Сдвигает элемент назад на 50% его ширины */   
+    width: 80%;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+.btn {
+    color: #413d35;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #337ab7;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.buttons { 
+    position: absolute; 
+    bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;   
+}
+
+
+
