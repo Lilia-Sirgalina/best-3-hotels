@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-h3 {
+.id-header {
     font-size: 23px;
 }
 
@@ -64,6 +64,41 @@ h3 {
     justify-content: space-evenly;
     width: 100%;   
 }
+
+.top-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-hotel {
+    height: 550px;
+    width: 400px;
+    background-color: #97b152;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    color: #fff;
+}
+
+.id-top {
+    font-size: 15px;
+}
+
+.top-description {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+}
+
+
 
 
 

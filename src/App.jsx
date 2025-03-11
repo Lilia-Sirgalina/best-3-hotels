@@ -5,8 +5,10 @@ import './App.css'
 function App() {
 
   const[hotels, setHotels] = useState(0);
-  const {id, hotel, image, description, showMore, sourse} = data[hotels];  
-
+  const {id, hotel, image, description, showMore, sourse} = data[hotels];
+  
+  const [tophotels, setTopHotels] = useState(0);
+  
   const previous = () => {
     setHotels(hotels => {
       hotels--;
@@ -41,9 +43,28 @@ function App() {
       </div>
 
       <div className='top-container'>
-        <div className='top-hotel'></div>
-        <div className='top-hotel'></div>
-        <div className='top-hotel'></div>
+
+        <div className='top-hotel'>
+          {/* <h3 className='top-header'>Tus top-3 hoteles</h3> */}
+
+          <div className='top-line'>
+            <h3 className='id-top'>{hotel}</h3>
+          </div>
+
+          <div className='top-image'>
+            <img src={image} alt="hotel picture" width="300px" />
+          </div>
+
+          <div className='top-description'>
+            <p className='top-p'>{description}</p>
+            <p>Reservar: <a href={sourse} target='_blank'>pagina web del hotel</a></p>
+          </div>
+
+          <div className='top-buttons'>            
+            <button className='btn'>Eliminar</button>            
+          </div>      
+
+        </div>        
       </div>
     </div>
 
@@ -54,7 +75,7 @@ function App() {
     <div className='container'>
 
       <div className='line'>
-        <h3>{id} - {hotel}</h3>
+        <h3 className='id-header'>{id} - {hotel}</h3>
       </div>
 
       <div className='image'>
@@ -81,7 +102,16 @@ function App() {
 export default App
 
 
-{/* <div className='container'>
+{/* 
+  const [gifts, setGifts] = useState(data);
+  
+  const removeItem = (id) => {    
+    let newGifts = gifts.filter(gift => gift.id !== id);    
+    setGifts(newGifts)
+  }
+
+  
+  <div className='container'>
       <h1>HOTELES CON ENCANTO EN CATALUÑA</h1>
     </div>
 
