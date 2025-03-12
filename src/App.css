@@ -71,9 +71,10 @@
 }
 
 .top-hotel {
+    justify-content: space-evenly;
     height: 550px;
     width: 400px;
-    background-color: #97b152;
+    background-color: #A7D477;
     text-align: center;
     border-radius: 50px;
 }
