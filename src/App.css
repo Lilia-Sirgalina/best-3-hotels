@@ -1,4 +1,9 @@
-
+h1 {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 
 .header {
     display: flex;
@@ -63,6 +68,10 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;   
+}
+
+.top-3 {
+    margin-top: 50px;
 }
 
 .top-container {

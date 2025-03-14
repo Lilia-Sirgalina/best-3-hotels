@@ -106,4 +106,18 @@ export const data = [
         description: "Entre Girona i el Ampurdán hay un pequeño paraíso, ondulado y benigno. Madremanya es el corazón. Es un pueblo de aire italiano, situado sobre una colina y con una iglesia de color de miel, que a su vez es el color de las casas y las calles, donde el tiempo, dormido, descansa. Joya de este paraíso es el restaurante La Plaça, de cocina refinada y sutil, convertido en un hotelito encantador, rodeado de un jardín aromático, abierto a Les Gavarres siempre verdes, maternales, silenciosas.",
         sourse: "https://www.hotelmadremanya.com/"
     },
+    {
+        id: 16,        
+        hotel: "Mas El Guitart Casa Rural y Spa (L’Hostalnou de Bianya)",
+        image: "https://www.guitartrural.com/img/allotjament/7/3-masia-1.jpg",
+        description: "Este hotel rural, Mas el Guitart, es una antigua casa familiar que ha sido convertida en un refugio turístico desde 1995. Su ubicación privilegiada, con vistas al valle y los Pirineos, ofrece una experiencia única en un entorno natural y virgen. Además de su encanto histórico, el lugar cuenta con un spa y un restaurante, lo que lo convierte en un destino ideal para quienes buscan relajación y contacto con la naturaleza.",
+        sourse: "https://www.guitartrural.com/es/"
+    },
+    {
+        id: 17,        
+        hotel: "Hotel Hostalillo (Tamariu)",
+        image: "https://hostalillo-tamariu.hotelmix.es/data/Photos/OriginalPhoto/15983/1598393/1598393832/Hotel-Hostalillo-By-Escampa-Hotels-Tamariu-Exterior.JPEG",
+        description: "El Hotel Hostalillo de Tamariu te ofrece una ubicación privilegiada para descubrir la naturaleza y la cultura de la Costa Brava. Aquí, la tranquilidad y la belleza del entorno se fusionan, creando el ambiente ideal para desconectar y disfrutar del mar. Ya sea para una escapada romántica o unas vacaciones en familia, nuestro hotel en Tamariu es el refugio perfecto para vivir la verdadera esencia de la Costa Brava y crear recuerdos inolvidables.",
+        sourse: "https://www.hotelhostalillo.com/es/"
+    }
 ]

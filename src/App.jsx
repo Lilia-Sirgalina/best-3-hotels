@@ -62,6 +62,38 @@ function App() {
       <h1>HOTELES CON ENCANTO EN CATALUÑA</h1>
     </div>
 
+    
+
+
+    <div className='header'>
+        <h2>Lista de Hoteles</h2>
+    </div>
+
+    <div className='container'>
+
+      <div className='line'>
+        <h3 className='id-header'>{id} - {hotel}</h3>
+      </div>
+
+      <div className='image'>
+        <img src={image} alt="hotel picture" width="500px" />
+      </div>
+
+      <div className='description'>
+        <p>{description}</p>
+        <p>Reservar: <a href={sourse} target='_blank'>pagina web del hotel</a></p>
+      </div>
+
+      <div className='buttons'>
+        <button className='btn' onClick={previous}>Anterior</button>
+        <button className='btn' onClick={() => add(hotels)}>Añadir al TOP-3</button>
+        <button className='btn' onClick={next}>Siguiente</button>
+      </div>      
+      
+    </div>  
+
+
+
     <div className='top-3'>
       <div className='header'>
         <h2>Tus top-3 hoteles</h2>
@@ -98,35 +130,7 @@ function App() {
       }
       </div>
       
-    </div>
-
-
-    <div className='header'>
-        <h2>Lista de Hoteles</h2>
-    </div>
-
-    <div className='container'>
-
-      <div className='line'>
-        <h3 className='id-header'>{id} - {hotel}</h3>
-      </div>
-
-      <div className='image'>
-        <img src={image} alt="hotel picture" width="500px" />
-      </div>
-
-      <div className='description'>
-        <p>{description}</p>
-        <p>Reservar: <a href={sourse} target='_blank'>pagina web del hotel</a></p>
-      </div>
-
-      <div className='buttons'>
-        <button className='btn' onClick={previous}>Anterior</button>
-        <button className='btn' onClick={() => add(hotels)}>Añadir al TOP-3</button>
-        <button className='btn' onClick={next}>Siguiente</button>
-      </div>      
-      
-    </div>    
+    </div>  
      
     </>
   )
