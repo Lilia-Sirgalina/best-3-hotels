@@ -60,9 +60,7 @@ function App() {
 
     <div className='header'>
       <h1>HOTELES CON ENCANTO EN CATALUÑA</h1>
-    </div>
-
-    
+    </div>    
 
 
     <div className='header'>
@@ -76,7 +74,7 @@ function App() {
       </div>
 
       <div className='image'>
-        <img src={image} alt="hotel picture" width="500px" />
+        <img className='img-hotel' src={image} alt="hotel picture" width="500px" />
       </div>
 
       <div className='description'>
@@ -96,7 +94,7 @@ function App() {
 
     <div className='top-3'>
       <div className='header'>
-        <h2>Tus top-3 hoteles</h2>
+        <h2 className='green'>Tus top-3 hoteles</h2>
       </div>
 
 

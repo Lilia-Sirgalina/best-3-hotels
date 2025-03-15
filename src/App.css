@@ -1,13 +1,10 @@
-h1 {
-  font-family: "Arimo", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-}
-
 .header {
     display: flex;
     justify-content: center;
+}
+
+h1 { 
+    text-align: center;
 }
 
 .container {
@@ -70,16 +67,23 @@ h1 {
     width: 100%;   
 }
 
+.green {
+    color: #1F7D53;
+}
+
 .top-3 {
     margin-top: 50px;
 }
 
 .top-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .top-hotel {
+    margin-top: 20px;
     justify-content: space-evenly;
     height: 550px;
     width: 400px;
@@ -108,7 +112,49 @@ h1 {
     width: 80%;
 }
 
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 23px;
+    }
+    .top-hotel {          
+        width: 350px;        
+    }
+}
 
+@media all and (max-width: 500px) {
+    .container {        
+        width: 350px; 
+        height: 660px;       
+    }
+    .id-header {
+        font-size: 17px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .img-hotel {
+        width: 350px;
+    }
+    .description {        
+        top: 320px;            
+        width: 95%;
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 13px;
+    }
+    .top-description {
+        width: 95%;
+    }
+    .image {
+        top: 60px;
+    }
+    .top-hotel {
+        height: 510px;
+    }
+    .id-top {
+        font-size: 14px;
+    }    
+}
 
 
 

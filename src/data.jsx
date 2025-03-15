@@ -39,7 +39,7 @@ export const data = [
     {
         id: 6,        
         hotel: "Cabanes als arbres (Sant Hilari Sacalm)",
-        image: "https://www.cabanyesentrevalls.com/wp-content/uploads/2014/12/grevol-750x370.jpg",
+        image: "https://www.cabanesalsarbres.com/wp-content/uploads/2022/07/MG_0054.jpg",
         description: "Otro de los hoteles originales en Cataluña que no te puedes perder son las Cabanes als arbres de Dosrius. Es el lugar perfecto para desconectar de la rutina y conectar con el entorno natural. Las cabañas se encuentran en pleno bosque y construidas encima de los árboles. Además, es importante destacar el compromiso de este alojamiento con el medio ambiente, puesto que todas las comodidades que ofrece la cabaña son de lo más sostenibles.",
         sourse: "https://www.cabanesalsarbres.com/es/"
     },
