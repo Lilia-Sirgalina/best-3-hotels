@@ -119,5 +119,61 @@ export const data = [
         image: "https://hostalillo-tamariu.hotelmix.es/data/Photos/OriginalPhoto/15983/1598393/1598393832/Hotel-Hostalillo-By-Escampa-Hotels-Tamariu-Exterior.JPEG",
         description: "El Hotel Hostalillo de Tamariu te ofrece una ubicación privilegiada para descubrir la naturaleza y la cultura de la Costa Brava. Aquí, la tranquilidad y la belleza del entorno se fusionan, creando el ambiente ideal para desconectar y disfrutar del mar. Ya sea para una escapada romántica o unas vacaciones en familia, nuestro hotel en Tamariu es el refugio perfecto para vivir la verdadera esencia de la Costa Brava y crear recuerdos inolvidables.",
         sourse: "https://www.hotelhostalillo.com/es/"
+    },
+    {
+        id: 18,        
+        hotel: "Hotel Aigua Blava (Begur)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/223-2.jpg",
+        description: "El hotel boutique Aigua Blava corona un espectacular acantilado de la Costa Brava y nos ofrece una combinación de agua azul, casas de cal blanca y el verde intenso del litoral, que ya de por si compensan haber aterrizado en este mágico sitio. Hay un restaurante, también asomándose al Mediterráneo, que nos deleita con cocina típica de la zona, en la que destaca obviamente el pescado. Conviene reservar con bastante antelación en época alta, ya que hay un gran número de clientes que vuelve una y otra vez.",
+        sourse: "https://www.hotelaiguablava.com/"
+    },
+    {
+        id: 19,        
+        hotel: "Les Hamaques (Viladamat)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/729-7.jpg",
+        description: "Les Hamaques es un nuevo concepto de pequeño hotel, al estilo de las maison d’hôtes francesas pero en el Empordá, la comarca que se llama también la Provenza o la Toscana catalana. Una pequeña puerta y dentro… un mundo hecho a base de sensaciones, de decoración intimista, de pequeños detalles y sobre todo paz, silencio y confort. Los propietarios, del mundo de la decoración, el diseño y el estilismo, han rehabilitado un antiguo pajar con todo el confort y los detalles para conseguir un ambiente agradable.",
+        sourse: "https://leshamaques.com/es/"
+    },
+    {
+        id: 20,        
+        hotel: "Mas de Torrent (Torrent)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/15-1.jpg",
+        description: "Esta magnífica masía restaurada, del siglo XVIII, alberga un pequeño y encantador hotel de gran lujo a muy poca distancia de las mejores playas de la Costa Brava y de cinco campos de golf. En el interior nos encontramos con una recepción excepcional decorada en estilo rústico, alfombras de esparto, vidrio mallorquín y una chimenea de piedra sobre fondo de tenue color salmón. El restaurante, con pinturas modernas en homenaje a Picasso, le ofrece una refinada cocina tradicional catalana y excelentes vinos de la región.",
+        sourse: "https://www.hotelmastorrent.com/es/"
+    },
+    {
+        id: 21,        
+        hotel: "Castell d'Empordà (La Bisbal d'Emporda)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/17-6.jpg",
+        description: `Como es propio de un castillo, las vistas sobre el campo que lo rodea son maravillosas, tan impresionantes como el propio lugar: la arquitectura románica original ha sido de totalmente preservada – bonitas paredes de piedra, altas y gruesas; extraordinarios y altos techos que parecen difuminar la luz que entra en agradables y suaves tonos de amarillo. La decoración es requintada y ayuda a proporcionar una atmósfera relajada y acogedora por todo el hotel, mientras que su emplazamiento especial es un plus para aquéllos que deseen disfrutar de tranquilidad y naturaleza.`,
+        sourse: "https://hotelcastellemporda.com/"
+    },
+    {
+        id: 22,        
+        hotel: "Hotel Barcelona Catedral (Barcelona)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/492-8.jpg",
+        description: "El Hotel Barcelona Catedral acaba de abrir sus puertas pero ya puede presumir de cualidades que normalmente se relacionan con esta fascinante ciudad, como son el estilo y la calidad de diseño. Puede que el exterior de piedra resulte algo sobrio, pero al entrar nos encontramos con un auténtico oasis de buen gusto justo en el corazón de la Barcelona más noble y más movida. La idea del Barcelona Catedral era relativamente simple: combinar un cóctel de confort y modernidad con una sensación que casi que podríamos llamar hogareña.",
+        sourse: "https://www.barcelonacatedral.com/es/"
+    },
+    {
+        id: 23,        
+        hotel: "Hotel Sant Roc (Calella de Palafrugell)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/9-9.jpg",
+        description: "Localizado en el corazón del Costa Brava, este bonito hotel de herencia familiar proporciona una atmósfera íntima y una situación maravillosa. Situado al borde de un acantilado, entre árboles, posee unas impresionantes vistas sobre el mar, con una magnífica terraza desde la que nunca se cansará de admirar la bahía de Calella de Plafrugell. En el estupendo restaurante panorámico del hotel, que ofrece especialidades locales e internacionales, el visitante se deleitará tanto con la comida como con las vistas.",
+        sourse: "https://www.santroc.com/es/"
+    },
+    {
+        id: 24,        
+        hotel: "Tancat de Codorniu (Alcanar)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/224-4.jpeg",
+        description: "La finca donde se levanta esta masía del siglo XIX fue vallada por sus primeros propietarios para asegurarse la paz y tranquilidad de sus habitantes. Ángel Llasera dueño y arquitecto de profesión, remodelo y decoró respetando el caracter neoclásico del edificio. El jardín tiene 3,5 hectáreas y 2.500 naranjos donde pasean pavos reales, gallos y gallinas. Los cuartos, 4 suites y 4 dobles, 3 dobles especiales tienen vista mar o jardín y son acogedores, amplios y llenos de pequeños detalles.",
+        sourse: "https://www.tancatdecodorniu.com/es/"
+    },
+    {
+        id: 25,        
+        hotel: "Masia Santa Llúcia (Rupit)",
+        image: "https://cdn.secretplaces.com/images/hotel-media/2484-1.jpg",
+        description: "El precioso y pequeño hotel rural Masía Santa Llúcia en Cataluña le sorprenderá con las vistas más espectaculares de toda la región. En la Masía Santa Llúcia encontrará acogedoras habitaciones amuebladas y decoradas con un estilo contemporáneo y confortable. La combinación de los materiales y colores desprende armonía y paz, lo que le permitirá relajarse de la mejor manera posible. En todo el complejo, también se presta gran atención a la relación con la naturaleza.",
+        sourse: "https://www.santalluciarupit.com/"
     }
 ]
