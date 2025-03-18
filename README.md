@@ -13,8 +13,8 @@ No installation is required.
 
 ## App Screenshot:
 
-![App Screenshot](Captura-1.JPG)
-![App Screenshot](Captura-2.JPG)
+![App Screenshot](src/Captura-1.JPG)
+![App Screenshot](src/Captura-2.JPG)
 
 ### How to Use:
 1. Navigate through the hotel slides using the "Siguiente" and "Anterior" buttons.
