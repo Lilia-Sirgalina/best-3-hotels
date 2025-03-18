@@ -32,7 +32,12 @@ function App() {
   const [tophotels, setTopHotels] = useState([]);
   
   const add = (hotels) => {
-    if (tophotels.length >= 3) {      
+    if (tophotels.length >= 3) {  
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "¡El TOP-3 de hoteles ya ha sido elegido!",        
+      });          
       return;
     }
   
@@ -40,7 +45,7 @@ function App() {
       Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "Este hotel ya está en el TOP-3!",        
+        text: "¡Este hotel ya está en el TOP-3!",        
       });      
       return;
     }
