@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { data } from './data'
 import './App.css'
+import Top from './Top';
 import Swal from 'sweetalert2';
+
 
 function App() {
 
