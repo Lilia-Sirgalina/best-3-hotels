@@ -3,12 +3,13 @@ import { data } from './data'
 import './App.css'
 
 import Swal from 'sweetalert2';
+import Slider from './Slider';
+import TopThree from './TopThree';
 
 
 function App() {
 
-  const[hotels, setHotels] = useState(0);
-  const {id, hotel, image, description, sourse} = data[hotels];
+  const[hotels, setHotels] = useState(0);      
 
   const previous = () => {
     setHotels(hotels => {
@@ -50,12 +51,9 @@ function App() {
         text: "¡Este hotel ya está en el TOP-3!",        
       });      
       return;
-    }
-  
+    }  
     setTopHotels([...tophotels, data[hotels]]);
-
   }
-
 
   const removeHotel = (id) => {
     let remove =tophotels.filter(hotel => hotel.id !== id);
@@ -67,75 +65,14 @@ function App() {
 
     <div className='header'>
       <h1>HOTELES CON ENCANTO EN CATALUÑA</h1>
-    </div>    
-
+    </div> 
 
     <div className='header'>
         <h2>Lista de Hoteles</h2>
     </div>
 
-    <div className='container'>
-
-      <div className='line'>
-        <h3 className='id-header'>{id} - {hotel}</h3>
-      </div>
-
-      <div className='image'>
-        <img className='img-hotel' src={image} alt="hotel picture" width="500px" />
-      </div>
-
-      <div className='description'>
-        <p>{description}</p>
-        <p>Reservar: <a href={sourse} target='_blank'>pagina web del hotel</a></p>
-      </div>
-
-      <div className='buttons'>
-        <button className='btn' onClick={previous}>Anterior</button>
-        <button className='btn' onClick={() => add(hotels)}>Añadir al TOP-3</button>
-        <button className='btn' onClick={next}>Siguiente</button>
-      </div>      
-      
-    </div>  
-
-
-
-    <div className='top-3'>
-      <div className='header'>
-        <h2 className='green'>Tus top-3 hoteles</h2>
-      </div>
-
-
-      <div className='top-container'>
-      {tophotels.map(item => {
-        const {id, hotel, image, description, sourse} = item;
-
-        return(   
-        <div className='top-hotel' key={id}>          
-
-          <div className='top-line'>
-            <h3 className='id-top'>{item.hotel}</h3>
-          </div>
-
-          <div className='top-image'>
-            <img src={item.image} alt="hotel picture" width="300px" />
-          </div>
-
-          <div className='top-description'>
-            <p className='top-p'>{item.description}</p>
-            <p>Reservar: <a href={item.sourse} target='_blank'>pagina web del hotel</a></p>
-          </div>
-
-          <div className='top-buttons'>            
-            <button className='btn' onClick={() => removeHotel(id)}>Eliminar</button>            
-          </div>      
-
-        </div>
-        )
-      })
-      }
-      </div>
-      
-    </div>  
+    <Slider hotelItem={data[hotels]} hotels={hotels} previous={previous} next={next} add={add} />
+    <TopThree tophotels={tophotels} removeHotel={removeHotel} />
      
     </>
   )
