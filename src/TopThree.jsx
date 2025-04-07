@@ -1,7 +1,11 @@
-import { data } from "./data";
 
-function TopThree({tophotels, removeHotel}) {
+function TopThree({tophotels, setTopHotels}) {
     
+    const removeHotel = (id) => {
+        let remove = tophotels.filter(hotel => hotel.id !== id);
+        setTopHotels(remove);    
+      }
+
     return(
     <div className='top-3'>
         <div className='header'>

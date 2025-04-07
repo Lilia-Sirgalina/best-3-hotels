@@ -1,8 +1,51 @@
 import { data } from "./data";
+import Swal from 'sweetalert2';
 
-function Slider({hotelItem, hotels, previous, next, add}) {
 
-    const {id, hotel, image, description, sourse} = hotelItem;
+function Slider({hotels, setHotels, tophotels, setTopHotels}) {  
+
+    const {id, hotel, image, description, sourse} = data[hotels];
+
+    const previous = () => {
+        setHotels(hotels => {
+          hotels--;
+          if(hotels<0) {
+          hotels = data.length-1;
+        }
+        return hotels;
+      })  
+      }
+    
+      const next = () => {
+        setHotels(hotels => {
+          hotels++;
+          if(hotels>data.length-1) {
+          hotels = 0;
+        }
+        return hotels;
+      })  
+      }
+
+      const add = (hotels) => {
+        if (tophotels.length >= 3) {  
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "¡El TOP-3 de hoteles ya ha sido elegido!",        
+          });          
+          return;
+        }
+      
+        if (tophotels.some(hotel => hotel.id === data[hotels].id)) {
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "¡Este hotel ya está en el TOP-3!",        
+          });      
+          return;
+        }  
+        setTopHotels([...tophotels, data[hotels]]);
+      }
 
     return(
       <div className='container'>
