@@ -1,9 +1,11 @@
 import { data } from "./data";
 import Swal from 'sweetalert2';
+import { useState } from "react";
 
 
-function Slider({hotels, setHotels, tophotels, setTopHotels}) {  
+function Slider({tophotels, setTopHotels}) {  
 
+    const[hotels, setHotels] = useState(0);
     const {id, hotel, image, description, sourse} = data[hotels];
 
     const previous = () => {

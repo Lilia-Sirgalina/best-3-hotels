@@ -6,7 +6,7 @@ import TopThree from './TopThree';
 
 function App() {
 
-  const[hotels, setHotels] = useState(0);
+  
   const [tophotels, setTopHotels] = useState([]);    
 
   return (
@@ -20,7 +20,7 @@ function App() {
         <h2>Lista de Hoteles</h2>
     </div>
 
-    <Slider hotels={hotels} setHotels={setHotels} tophotels={tophotels} setTopHotels={setTopHotels}/>
+    <Slider tophotels={tophotels} setTopHotels={setTopHotels}/>
     <TopThree tophotels={tophotels} setTopHotels={setTopHotels} />
      
     </>
